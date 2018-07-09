@@ -14,7 +14,7 @@ var https = require('https');
     response.setEncoding('utf8');
 
     response.on('data', function (data) {
-    console.log('Chunk Received:' + data);
+    console.log('Chunk Received: ' + data + '\n');
     });
 
   });
