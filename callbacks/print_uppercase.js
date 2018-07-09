@@ -1,4 +1,4 @@
-var getHTML = require('./step6');
+var getHTML = require('../step6');
 
 var requestOptions = {
   host: 'sytantris.github.io',
